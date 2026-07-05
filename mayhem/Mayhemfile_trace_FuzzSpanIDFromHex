@@ -1,0 +1,6 @@
+project: opentelemetry-go
+target: trace-fuzzspanidfromhex
+
+cmds:
+  - cmd: /mayhem/trace_FuzzSpanIDFromHex
+    libfuzzer: true

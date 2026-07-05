@@ -1,0 +1,6 @@
+project: opentelemetry-go
+target: sdk-attribute-fuzzhashkvs
+
+cmds:
+  - cmd: /mayhem/sdk_attribute_FuzzHashKVs
+    libfuzzer: true

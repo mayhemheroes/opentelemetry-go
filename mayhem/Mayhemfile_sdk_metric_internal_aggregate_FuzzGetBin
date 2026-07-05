@@ -1,0 +1,6 @@
+project: opentelemetry-go
+target: sdk-metric-internal-aggregate-fuzzgetbin
+
+cmds:
+  - cmd: /mayhem/sdk_metric_internal_aggregate_FuzzGetBin
+    libfuzzer: true
